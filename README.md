@@ -8,4 +8,5 @@ Docker
 ----
 
 https://hub.docker.com/r/edwardchalstrey/mandelbrot
+
 https://hub.docker.com/r/edwardchalstrey/mandelbrot_gpu
