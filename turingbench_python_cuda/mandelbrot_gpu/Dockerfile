@@ -14,7 +14,7 @@ RUN wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -
 
 ENV PATH /opt/conda/bin:$PATH
 
-RUN conda install numpy scipy matplotlib numba cudatoolkit pyculib -y
+RUN conda install numpy scipy matplotlib numba cudatoolkit=9.0 pyculib -y
 
 COPY mandelbrot_gpu.py /mandelbrot_gpu.py
 
