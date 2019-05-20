@@ -1,0 +1,8 @@
+BootStrap: docker 
+From: edwardchalstrey/mandelbrot
+
+%post
+    apt-get -y update
+
+%files      
+    mandelbrot.py /mandelbrot.py
