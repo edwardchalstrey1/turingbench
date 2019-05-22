@@ -20,4 +20,4 @@
 
 # run the application
 module load singularity
-singularity run --nv -B /tmp:/tmp shub://singularity-hub.org/edwardchalstrey1/turingbench:mandelbrot_gpu
+singularity run --nv shub://singularity-hub.org/edwardchalstrey1/turingbench:mandelbrot_gpu

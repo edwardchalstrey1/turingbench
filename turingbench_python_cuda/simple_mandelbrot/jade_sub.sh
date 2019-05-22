@@ -20,4 +20,4 @@
 
 # run the application
 module load singularity
-singularity run -B /tmp:/tmp shub://singularity-hub.org/edwardchalstrey1/turingbench:mandelbrot
+singularity run shub://singularity-hub.org/edwardchalstrey1/turingbench:mandelbrot
