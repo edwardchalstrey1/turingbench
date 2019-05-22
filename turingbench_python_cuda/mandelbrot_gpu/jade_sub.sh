@@ -20,5 +20,4 @@
 
 # run the application
 module load singularity
-singularity build mandelbrot_gpu.sif mandelbrot_gpu.def
-singularity run --nv mandelbrot_gpu.sif
+singularity run --nv -B /tmp:/tmp shub://singularity-hub.org/edwardchalstrey1/turingbench:mandelbrot_gpu

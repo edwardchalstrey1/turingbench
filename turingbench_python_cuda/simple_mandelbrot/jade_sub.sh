@@ -20,5 +20,4 @@
 
 # run the application
 module load singularity
-singularity build mandelbrot.sif mandelbrot.def
-singularity run -B /tmp:/tmp mandelbrot.sif
+singularity run -B /tmp:/tmp shub://singularity-hub.org/edwardchalstrey1/turingbench:mandelbrot
