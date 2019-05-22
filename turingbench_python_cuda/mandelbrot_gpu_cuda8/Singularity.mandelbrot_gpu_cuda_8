@@ -1,0 +1,8 @@
+BootStrap: docker 
+From: edwardchalstrey/mandelbrot_gpu:cuda8
+
+%post
+    apt-get -y update
+
+%files      
+    mandelbrot_gpu.py /mandelbrot_gpu.py
